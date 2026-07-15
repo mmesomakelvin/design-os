@@ -51,7 +51,7 @@ From the repository root, start Codex CLI:
 codex
 ```
 
-Codex will see `AGENTS.md`, which points to the full Design OS guidance in `agents.md`.
+Codex will see `AGENTS.md`, which now contains the full Design OS guidance for working in this repo.
 
 ## 5. Use the Codex prompt shortcuts
 
