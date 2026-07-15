@@ -38,7 +38,7 @@ You interact with Design OS through slash commands. Each command walks you throu
 - `/data-shape` — Update your data entities (after initial creation)
 - `/sample-data` — Update sample data and types (after initial creation)
 
-See [Usage](usage.md) for the full workflow.
+See [Usage](usage.md) for the full workflow. If you are using Codex CLI, see [Using Design OS with Codex CLI](codex-cli.md) for the Codex-specific setup and prompt shortcuts.
 
 ## Who It's For
 
