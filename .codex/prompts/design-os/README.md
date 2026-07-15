@@ -4,6 +4,10 @@ This folder mirrors the Claude Code command prompts in `.claude/commands/design-
 
 Codex CLI may not expose these files as slash commands automatically in every environment. If a slash command is not available, paste one of the prompts below into Codex from the repository root.
 
+## Compatibility note
+
+These prompts are additive. They do not change the existing Claude Code commands in `.claude/commands/design-os/`, and Claude users can continue using the original slash-command workflow.
+
 ## Quick start prompts
 
 ### Product vision

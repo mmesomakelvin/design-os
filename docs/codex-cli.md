@@ -4,6 +4,12 @@ Design OS was originally packaged around Claude Code slash commands. The underly
 
 This guide shows the safe Codex CLI workflow without changing your product files until you intentionally run a Design OS prompt.
 
+## Claude Code compatibility
+
+These Codex files do not replace or modify the Claude Code workflow. The existing `.claude/commands/design-os/` slash commands and `.claude/skills/frontend-design/SKILL.md` remain in place, and Claude Code users can continue to start the project with `claude` and run the original Design OS slash commands.
+
+The Codex prompt shortcuts intentionally reference the Claude command files instead of duplicating their full contents, so there is still one source of truth for the Design OS command behavior.
+
 ## 1. Start from a clean branch
 
 Before asking Codex to generate product files, check your git state:
@@ -45,7 +51,7 @@ From the repository root, start Codex CLI:
 codex
 ```
 
-Codex will see `AGENTS.md`, which points to the full Design OS guidance in `agents.md`.
+Codex will see `AGENTS.md`, which now contains the full Design OS guidance for working in this repo.
 
 ## 5. Use the Codex prompt shortcuts
 
